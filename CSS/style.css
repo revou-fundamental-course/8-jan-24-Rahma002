@@ -24,6 +24,7 @@ header h1 span {
   background-color: white;
   padding: 20px;
   margin: 10px;
+  margin-top: 20px;
 }
 
 header h4 {
@@ -41,4 +42,31 @@ header h4 {
 .description {
   text-align: center;
   font-size: 13px;
+}
+
+.intro ul li {
+  margin-top: 10px;
+  list-style: none;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+}
+
+.intro ul li a {
+  width: 100%;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.kotak {
+  background-color: blue;
+}
+
+.kotak a {
+  color: white;
+}
+
+.panjang a {
+  color: blue;
 }
