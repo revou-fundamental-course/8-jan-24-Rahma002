@@ -27,7 +27,7 @@ header h1 span {
   margin-top: 20px;
 }
 
-header h4 {
+h4 {
   font-size: 20px;
   text-align: center;
 }
@@ -45,16 +45,18 @@ header h4 {
 }
 
 .intro ul li {
+  width: 520px;
+  margin-left: -10px;
   margin-top: 10px;
   list-style: none;
   text-align: center;
   height: 30px;
   line-height: 30px;
   border-radius: 5px;
+
 }
 
 .intro ul li a {
-  width: 100%;
   font-weight: bold;
   text-decoration: none;
 }
@@ -67,6 +69,56 @@ header h4 {
   color: white;
 }
 
+.kotak a
+
 .panjang a {
   color: blue;
 }
+
+main {
+  margin: 10px;
+  background-color: white;
+}
+
+main h2 {
+  height: 90px;
+  background-color: rgb(59, 83, 216);
+  text-align: center;
+  line-height: 90px;
+  color: white;
+}
+
+main img {
+    padding-left: 175px;
+}
+
+.content {
+  margin: 20px;
+  border: solid 1px blue;
+  padding-bottom: 20px;
+  border-bottom: solid 1px black;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.rumus {
+  font-weight: bold;
+  text-align: center;
+}
+
+main .rumus {
+  padding: 10px;
+}
+
+p .describe {
+  margin-top: 20px;
+}
+
+.inputSection {
+  display:flex;
+  flex-direction:column;
+  margin: 10px;
+}
+
