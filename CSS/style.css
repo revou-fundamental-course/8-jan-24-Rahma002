@@ -45,9 +45,7 @@ h4 {
 }
 
 .intro ul li {
-  width: 520px;
-  margin-left: -10px;
-  margin-top: 10px;
+  width: 100%;
   list-style: none;
   text-align: center;
   height: 30px;
@@ -69,8 +67,6 @@ h4 {
   color: white;
 }
 
-.kotak a
-
 .panjang a {
   color: blue;
 }
@@ -78,6 +74,8 @@ h4 {
 main {
   margin: 10px;
   background-color: white;
+  border: solid 1px blue;
+  padding-bottom: 20px;
 }
 
 main h2 {
@@ -89,7 +87,7 @@ main h2 {
 }
 
 main img {
-    padding-left: 175px;
+    padding-left: 35%;
 }
 
 .content {
@@ -122,3 +120,33 @@ p .describe {
   margin: 10px;
 }
 
+.inputSection label {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.inputSection input {
+  height: 25px;
+  margin: 10px;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  height: 30px;
+  color: white;
+  border-radius: 6px;
+  border-color: white;
+}
+
+.katikButton1 {
+    margin-left: 50%;
+    background-color: blue;
+}
+
+.katikButton2 {
+  margin-left: 89%;
+  background-color: orange;
+}
