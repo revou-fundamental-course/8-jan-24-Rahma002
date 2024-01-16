@@ -5,17 +5,19 @@
 
 body {
   background-color: #ddd;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 header h1 {
-  font-size: 29px;
+  font-family: Georgia;
+  font-size: 30px;
   text-align: center;
   padding: 20px;
-  background-color: rgb(45, 89, 170);
+  background-color: rgb(52, 104, 202);
   color: white;
 }
 
-header h1 span {
+h1 span {
   font-size: 18px;
   color: rgb(206, 196, 196);
 }
@@ -23,12 +25,10 @@ header h1 span {
 .intro {
   background-color: white;
   padding: 20px;
-  margin: 10px;
-  margin-top: 20px;
+  margin: 20px 10px 0 10px;;
 }
 
-h4 {
-  font-size: 20px;
+.intro h2 {
   text-align: center;
 }
 
@@ -39,13 +39,14 @@ h4 {
   color: #333;
 }
 
-.description {
-  text-align: center;
-  font-size: 13px;
+.navigation {
+  background-color: white;
+  margin: 0 10px 0 10px;
+  padding-bottom: 10px;
 }
 
-.intro ul li {
-  width: 100%;
+ul li {
+  margin: 0 20px 0 20px;
   list-style: none;
   text-align: center;
   height: 30px;
@@ -54,13 +55,13 @@ h4 {
 
 }
 
-.intro ul li a {
+ul li a {
   font-weight: bold;
   text-decoration: none;
 }
 
 .kotak {
-  background-color: blue;
+  background-color: rgb(65, 107, 223);
 }
 
 .kotak a {
@@ -74,20 +75,19 @@ h4 {
 main {
   margin: 10px;
   background-color: white;
-  border: solid 1px blue;
-  padding-bottom: 20px;
 }
 
-main h2 {
-  height: 90px;
-  background-color: rgb(59, 83, 216);
+main .content h2 {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(38, 95, 218);
   text-align: center;
-  line-height: 90px;
+  line-height: 80px;
   color: white;
 }
 
-main img {
-    padding-left: 35%;
+img {
+  margin: 0 35% 0 35%;
 }
 
 .content {
@@ -97,27 +97,23 @@ main img {
   border-bottom: solid 1px black;
 }
 
-p {
-  padding-left: 10px;
-}
-
 .rumus {
   font-weight: bold;
   text-align: center;
 }
 
-main .rumus {
-  padding: 10px;
-}
-
-p .describe {
-  margin-top: 20px;
+.content .describe {
+  padding-left: 10px;
 }
 
 .inputSection {
-  display:flex;
-  flex-direction:column;
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 0 20px;
+  border: solid 1px blue;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
 }
 
 .inputSection label {
@@ -142,8 +138,8 @@ button {
 }
 
 .katikButton1 {
-    margin-left: 50%;
-    background-color: blue;
+  margin-left: 50%;
+  background-color: blue;
 }
 
 .katikButton2 {
