@@ -8,11 +8,13 @@
   <script type="text/javascript" src="Javascript/script.js"></script>
 </head>
 <body>
+
+  <div class="bar">
+      <h1>Katik <span> Kalkulator Matematik</span></h1>
+  </div>
   
   <div class="container">
-
     <header>
-      <h1>Katik <span> Kalkulator Matematik</span></h1>
           <div class="intro">
                   <h2>Welcome to Katik</h2>
                   <p class="welcome">Hai Sobat.. Selamat datang di katik :]
@@ -20,18 +22,12 @@
                   berfungsi untuk menghitung nilai luas dan keliling bangun 
                   datar</p>
           </div>
-          <div class="navigation">
-              <ul>
-                      <li class="kotak"><a href="">Luas Persegi</a></li>
-                      <li class="panjang"><a href="">Keliling Persegi</a></li>
-              </ul>
-          </div>
-        </header>
+    </header>
 
     <main>
         <div class="content">
             <h2>Luas Persegi</h2>
-            <img class="image" src="Asset/Square.png" alt="Bujur Sangkar">
+            <img src="Asset/Square.png" alt="Bujur Sangkar">
             <p class="describe">Rumus Luas Persegi yaitu: </p>
             <p class="rumus"> L = S x S</p>
             <p class="describe">
@@ -55,12 +51,12 @@
     <div class="footer">
         <div class="inputSection">
           <h2>Hitung Luas dan Keliling Persegi</h2>
-          <input type="text" id="S" name="S"><br />
-          <span>Luas : </span> <input type="text" id="txtLuas" name="txtLuas">
-          <span>Keliling : </span><input type="text" id="txtKeliling" name="txtKeliling">
+          <input type="number" placeholder="Sisi Persegi" id="S" name="S"><br />
+          <span>Luas : </span> <input type="text" id="Luas" name="Luas">
+          <span>Keliling : </span><input type="text" id="Keliling" name="Keliling">
           <input type="button" id="btnHitung" value="Hitung" onclick="hitung();"><br />
-          <button class="katikButton2" onclick="javascript:reset();">Reset</button>
-        </div>
+        <button class="katikButton2" onclick="javascript:reset();">Reset</button>
+      </div>
     </div>
 
   </div>

@@ -1,13 +1,13 @@
 function hitung() {
   S = document.getElementById("S").value;
   Luas = S * S;
-  document.getElementById("txtLuas").value = Luas;
+  document.getElementById("Luas").value = Luas;
   Keliling = 4 * S;
-  document.getElementById("txtKeliling").value = Keliling;
+  document.getElementById("Keliling").value = Keliling;
 }
 
 function reset() {
   document.getElementById("S").value = "";
-  document.getElementById("txtLuas").value = "";
-  document.getElementById("txtKeliling").value = "";
+  document.getElementById("Luas").value = "";
+  document.getElementById("Keliling").value = "";
 }
