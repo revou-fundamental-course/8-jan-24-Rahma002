@@ -13,8 +13,9 @@ header h1 {
   font-size: 30px;
   text-align: center;
   padding: 20px;
-  background-color: rgb(52, 104, 202);
+  background-color: rgb(35, 58, 102);
   color: white;
+  box-shadow: 5px 5px 5px black;
 }
 
 h1 span {
@@ -23,12 +24,14 @@ h1 span {
 }
 
 .intro {
-  background-color: white;
+  background-color: rgb(204, 213, 226);
   padding: 20px;
-  margin: 20px 10px 0 10px;;
+  margin: 20px 10px 0 10px;
+  border-radius: 3px;
 }
 
 .intro h2 {
+  text-shadow: 2px 2px white;
   text-align: center;
 }
 
@@ -40,9 +43,10 @@ h1 span {
 }
 
 .navigation {
-  background-color: white;
+  background-color: rgb(204, 213, 226);
   margin: 0 10px 0 10px;
   padding-bottom: 10px;
+  border-radius: 3px;
 }
 
 ul li {
@@ -75,11 +79,13 @@ ul li a {
 main {
   margin: 10px;
   background-color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
 main .content h2, .content2 h2 {
   height: 80px;
-  width: 100%;
+  width: 25em;
   background-color: rgb(38, 95, 218);
   text-align: center;
   line-height: 80px;
@@ -87,7 +93,7 @@ main .content h2, .content2 h2 {
 }
 
 img {
-  margin: 0 35% 0 35%;
+  margin: auto;
 }
 
 .content, .content2 {
@@ -109,12 +115,13 @@ img {
 .footer {
   background-color: white;
   margin: 0 10px 10px 10px;
+  padding-top: 10px;
 }
 
 .inputSection {
   display: flex;
   flex-direction: column;
-  margin: 0 20px 0 20px;
+  margin: 10px 20px 0 20px;
   border: solid 1px blue;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -158,8 +165,9 @@ button {
 
 .katikButton2 {
   background-color: rgb(212, 123, 40);
+  width: 55px;
   font-weight: bold;
-  width: 60px;
   border-radius: 5px;
   color: white;
+  margin-left: 10px;
 }
