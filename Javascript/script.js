@@ -1,6 +1,6 @@
 function hitung() {
   S = document.getElementById("S").value;
-  document.getElementById("Sisi1").innerHTML = S;
+  document.getElementById("Sisi1").innerHTML= S;
   document.getElementById("Sisi2").innerHTML = S;
   Luas = S * S;
   document.getElementById("Luas").value = Luas;
