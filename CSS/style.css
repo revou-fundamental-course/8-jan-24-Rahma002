@@ -112,17 +112,22 @@ img {
 }
 
 .inputSection {
+  display: flex;
+  flex-direction: column;
   margin: 10px 20px 0 20px;
   padding-top: 10px;
   padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 .inputSection h2 {
   text-align: center;
   font-weight: bold;
   text-shadow: 1px 1px black;
+}
+
+.inputSection p {
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 .inputSection input {
@@ -132,7 +137,6 @@ img {
 }
  
 .inputSection span {
-  padding-left: 10px;
   font-weight: bold;
 }
 

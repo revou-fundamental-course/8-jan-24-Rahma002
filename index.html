@@ -19,8 +19,7 @@
                   <h2>Welcome to Katik</h2>
                   <p class="welcome">Hai Sobat.. Selamat datang di katik :]
                   </br>Sebuah web apps sederhana yang 
-                  berfungsi untuk menghitung nilai luas dan keliling bangun 
-                  datar</p>
+                  berfungsi untuk menghitung nilai luas dan keliling persegi</p>
           </div>
     </header>
 
@@ -49,12 +48,14 @@
     </main>
 
     <div class="footer">
-        <div class="inputSection">
-          <h2>Hitung Luas dan Keliling Persegi</h2>
-          <input type="number" placeholder="Sisi Persegi" id="S" name="S"><br />
-          <span>Luas : </span> <input type="text" id="Luas" name="Luas">
-          <span>Keliling : </span><input type="text" id="Keliling" name="Keliling">
-          <input type="button" id="btnHitung" value="Hitung" onclick="hitung();"><br />
+      <div class="inputSection">
+        <h2>Hitung Luas dan Keliling Persegi</h2>
+        <input type="number" placeholder="Sisi Persegi" id="S" name="S"><br />
+        <p>L : <span id="Sisi1"> S</span> * <span id="Sisi2">S</span></p>
+        <p>Luas : </p> <input type="text" id="Luas" name="Luas">
+        <p>K : 4 * <span id="Kel">S</span></p>
+        <p>Keliling : </p><input type="text" id="Keliling" name="Keliling">
+        <input type="button" id="btnHitung" value="Hitung" onclick="hitung();"><br />
         <button class="katikButton2" onclick="javascript:reset();">Reset</button>
       </div>
     </div>
