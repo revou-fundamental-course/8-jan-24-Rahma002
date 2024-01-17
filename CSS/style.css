@@ -6,7 +6,6 @@
 body {
   background-color: #ddd;
   font-family: 'Times New Roman', Times, serif;
-  overflow-x: hidden;
 }
 
 .container {
@@ -153,6 +152,10 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
     main {
       flex-direction: column;
       
